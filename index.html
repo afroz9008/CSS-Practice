@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Sheet</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="body">
+    <table id="table1" align="center" cellspacing=1>
+        <tr id="row1">
+            <td>
+                <h2>Heading</h2>
+                This attribute contains the value for the http-equiv or name attribute, depending on which is used.
+            </td>
+            <td>
+                <h2>Heading</h2>
+                This attribute contains the value for the http-equiv or name attribute, depending on which is used.
+            </td>
+            <td>
+                <h2>Heading</h2>
+                This attribute contains the value for the http-equiv or name attribute, depending on which is used.
+            </td>
+        </tr>
+        <tr id="row2">
+            <td colspan="2">
+                <h2>Heading</h2>
+                This enumerated attribute indicates how the table must be aligned inside the containing document.
+            </td>
+            <td bgcolor="cyan">
+                <h2>Heading</h2>
+                The link element allows authors to link their document to other resources.
+            </td>
+        </tr>
+    </table>
+    <button id="stickyBtn"
+        onclick="{this.style.background='#'+Math.random().toString(16).substr(2,6);document.getElementById('body').style.background='#'+Math.random().toString(16).substr(2,6)}">Click
+        Me</button>
+    <!-- <center>
+        <div id="div1">
+            <div id="div2">Hello</div>
+            <div id="div3">Good By</div>
+        </div>
+    </center> -->
+    <center>
+        <div id="d1">
+            <div id="d2">
+                <img src="asset/Profile.jpg"><br>
+                This attribute declares the page's character encoding. It must contain a standard IANA MIME name for
+                character encodings. Although the standard doesn't request a specific encoding, it suggests:
+
+                Authors are encouraged to use UTF-8.
+                Authors should not use ASCII-incompatible encodings to avoid security risk: browsers not supporting them
+                may interpret harmful content as HTML. This happens with the JIS_C6226-1983, JIS_X0212-1990, HZ-GB-2312,
+                JOHAB, the ISO-2022 family and the EBCDIC family.
+                Note: ASCII-incompatible encodings are those that don't map the 8-bit code points 0x20 to 0x7E to the
+                0x0020 to 0x007E Unicode code points)
+
+                Authors must not use CESU-8, UTF-7, BOCU-1 and/or SCSU as cross-site scripting attacks with these
+                encodings have been demonstrated.
+                Authors should not use UTF-32 because not all HTML5 encoding algorithms can distinguish it from UTF-16.
+                Notes:
+
+                The declared character encoding must match the one the page was saved with to avoid garbled characters
+                and security holes.
+            </div>
+            <div id="d3">
+                <img src="asset/img2.jpg"><br>
+                The title element represents the document's title or name. Authors should use titles that identify their
+                documents even when they are used out of context, for example in a user's history or bookmarks, or in
+                search results. The document's title is often different from its first heading, since the first heading
+                does not have to stand alone when taken out of context.
+            </div>
+            <div id="d2">
+                <img src="asset/Profile.jpg"><br>
+                This attribute declares the page's character encoding. It must contain a standard IANA MIME name for
+                character encodings. Although the standard doesn't request a specific encoding, it suggests:
+
+                Authors are encouraged to use UTF-8.
+                Authors should not use ASCII-incompatible encodings to avoid security risk: browsers not supporting them
+                may interpret harmful content as HTML. This happens with the JIS_C6226-1983, JIS_X0212-1990, HZ-GB-2312,
+                JOHAB, the ISO-2022 family and the EBCDIC family.
+                Note: ASCII-incompatible encodings are those that don't map the 8-bit code points 0x20 to 0x7E to the
+                0x0020 to 0x007E Unicode code points)
+
+                Authors must not use CESU-8, UTF-7, BOCU-1 and/or SCSU as cross-site scripting attacks with these
+                encodings have been demonstrated.
+                Authors should not use UTF-32 because not all HTML5 encoding algorithms can distinguish it from UTF-16.
+                Notes:
+
+                The declared character encoding must match the one the page was saved with to avoid garbled characters
+                and security holes.
+            </div>
+        </div>
+    </center>
+</body>
+
+</html>
